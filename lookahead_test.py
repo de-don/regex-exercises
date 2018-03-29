@@ -75,10 +75,10 @@ class ToPigLatinTests(unittest.TestCase):
         self.assertEqual(to_pig_latin("trust"), 'usttray')
 
     def test_quack(self):
-        self.assertEqual(to_pig_latin("quack"), 'ackquay')
+        self.assertEqual(to_pig_latin("quack"), 'uackqay')
 
     def test_squeak(self):
-        self.assertEqual(to_pig_latin("squeak"), 'eaksquay')
+        self.assertEqual(to_pig_latin("squeak"), 'ueaksqay')
 
     def test_enqeue(self):
         self.assertEqual(to_pig_latin("enqueue"), 'enqueueay')
